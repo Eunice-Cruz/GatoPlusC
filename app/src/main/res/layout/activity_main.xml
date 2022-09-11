@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5sp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/reiniciarJuego"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="jugarOtra"
+        android:text="Jugar De nuevo"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="608dp" />
+
+
+    <TableLayout
+        android:layout_width="405dp"
+        android:layout_height="419dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="383dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/boton00"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton00"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton01"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton01"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton02"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton02"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton03"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton03"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton04"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton04"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton05"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton05"
+                android:textSize="32sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/boton10"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton10"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton11"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton11"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton12"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton12"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton13"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton13"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton14"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton14"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton15"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton15"
+                android:textSize="32sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/boton20"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton20"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton21"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton21"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton22"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton22"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton23"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton23"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton24"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton24"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton25"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton25"
+                android:textSize="32sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/boton30"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton30"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton31"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton31"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton32"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton32"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton33"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton33"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton34"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton34"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton35"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton35"
+                android:textSize="32sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/boton40"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton40"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton41"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton41"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton42"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton42"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton43"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton43"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton44"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton44"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton45"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton45"
+                android:textSize="32sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/boton50"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton50"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton51"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton51"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton52"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton52"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton53"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton53"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton54"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton54"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/boton55"
+                android:layout_width="64sp"
+                android:layout_height="64sp"
+                android:layout_margin="2sp"
+                android:onClick="boton55"
+                android:textSize="32sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
